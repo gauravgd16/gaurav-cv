@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Dhongde - Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Tailwind Overrides */
+    .font-primary {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .font-secondary {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-r from-gray-100 via-gray-200 to-gray-100 font-secondary leading-relaxed tracking-wide">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-white py-10">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center text-center">
+      <h1 class="text-5xl font-bold font-primary drop-shadow-md">Gaurav Dhongde</h1>
+      <p class="text-xl mt-4 mb-1">Experienced Software Engineer</p>
+      <p class="text-lg font-secondary italic mb-2">Budapest, Hungary</p>
+      <p class="text-sm mt-2 flex gap-5">
+        <!-- Email -->
+        <a href="mailto:gauravgd16@gmail.com" class="flex items-center gap-3 bg-blue-700 px-4 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22 6.75L12 13 2 6.75V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v.75zM22 8.5v8.5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.5l10 6.5 10-6.5z"/>
+          </svg>
+          gauravgd16@gmail.com
+        </a>
+        <!-- Phone -->
+        <a href="tel:+36203211339" class="flex items-center gap-3 bg-blue-700 px-4 py-2 rounded-full shadow-lg hover:bg-blue-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6.62 10.79a15.91 15.91 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.11-.23 11.27 11.27 0 0 0 3.55 1.11 1 1 0 0 1 .87.99v3.26a1 1 0 0 1-.92 1A16.1 16.1 0 0 1 3 4.92 1 1 0 0 1 4 4h3.27a1 1 0 0 1 1 .87 11.27 11.27 0 0 0 1.11 3.56 1 1 0 0 1-.26 1.1l-2.2 2.2z"/>
+          </svg>
+          +36-203211339
+        </a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto my-12 px-4 space-y-10">
+    <!-- Summary -->
+    <section id="summary" class="bg-white p-8 shadow-xl rounded-lg hover:shadow-2xl transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Summary
+      </h2>
+      <p class="text-justify text-gray-700">
+        Experienced Java Developer with a strong background in designing, developing, and enhancing enterprise-level software solutions. Specialized in cloud-based Human Experience Management (HXM) solutions with expertise in Java, Python, JavaScript, and AI/ML technologies.
+      </p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="bg-white p-8 shadow-xl rounded-lg hover:shadow-2xl transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Professional Experience
+      </h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-2xl font-semibold font-primary text-blue-800">Developer, SAP Hungary</h3>
+          <p class="text-gray-600 italic">Oct 2017 – Present</p>
+          <ul class="list-disc pl-6 text-gray-700 mt-3">
+            <li>Led development of critical enhancements for Employee Central module of SAP SuccessFactors.</li>
+            <li>Designed and implemented Java-based microservices to extend HR functionality.</li>
+            <li>Developed comprehensive test frameworks for enterprise-level testing.</li>
+            <li>Optimized employee data migration scripts, reducing migration time.</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold font-primary text-blue-800">System Engineer, Tata Consultancy Services</h3>
+          <p class="text-gray-600 italic">Jun 2014 – Apr 2015</p>
+          <ul class="list-disc pl-6 text-gray-700 mt-3">
+            <li>Worked extensively on TCS BaNCS system for core banking operations.</li>
+            <li>Designed and implemented efficient system solutions using C programming.</li>
+            <li>Optimized database queries to improve transaction processing times.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Projects -->
+    <section id="projects" class="bg-white p-8 shadow-xl rounded-lg transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Technical Projects
+      </h2>
+      <div class="flex flex-wrap -mx-4">
+        <!-- Card 1 -->
+        <div class="w-full sm:w-1/2 px-4 mb-6">
+          <div class="bg-gray-100 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">SAP Mental Health AI Chatbot</h3>
+            <p class="text-gray-700 mb-4">Developed an AI-powered chatbot showcased at SAP Hackathon 2024.</p>
+            <a href="https://saphackathon2024.streamlit.app/" target="_blank" class="text-grey-600 font-semibold hover:underline">
+              SAP Mental Health AI Chatbot
+            </a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="w-full sm:w-1/2 px-4 mb-6">
+          <div class="bg-gray-100 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Titan Eclipse Plugins</h3>
+            <p class="text-gray-700 mb-4">Modular extensions for TTCN-3 IDE at Ericsson Hungary R&D Center.</p>
+            <a href="https://github.com/eclipse/titan.EclipsePlugins/blob/e3efba2622f9c7199993ec5168ae9f0b39648cd9/org.eclipse.titanium/src/org/eclipse/titanium/markers/spotters/implementation/DuplicateName.java" target="_blank" class="text-grey-600 font-semibold hover:underline">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="w-full sm:w-1/2 px-4 mb-6">
+          <div class="bg-gray-100 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Eatsy</h3>
+            <p class="text-gray-700 mb-4">Location-based dining reservation app with advanced search features.</p>
+            <a href="https://github.com/gauravgd16/Eatsy" target="_blank" class="text-grey-600 font-semibold hover:underline">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="w-full sm:w-1/2 px-4 mb-6">
+          <div class="bg-gray-100 shadow-md rounded-lg p-6 hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold text-blue-800 mb-2">Customer Response Modeling</h3>
+            <p class="text-gray-700 mb-4">Sentiment analysis for John Deere “Techno-Champ 2013” competition.</p>
+            <a href="https://customersentimentanalysis.appspot.com/" target="_blank" class="text-grey-600 font-semibold hover:underline">
+              Customer Response Modeling App
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="bg-white p-8 shadow-xl rounded-lg hover:shadow-2xl transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Education
+      </h2>
+      <ul class="space-y-4 text-gray-700">
+        <li>
+          <h3 class="text-2xl font-semibold font-primary text-blue-800">Master of Science in Computer Science</h3>
+          <p>Eötvös Loránd University, Budapest (2018)</p>
+          <p>GPA: 4.0</p>
+        </li>
+        <li>
+          <h3 class="text-2xl font-semibold font-primary text-blue-800">Bachelor of Engineering in Information Technology</h3>
+          <p>Yeshwantrao Chavan College of Engineering, Nagpur (2014)</p>
+          <p>GPA: 8.99</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Awards and Achievements -->
+    <section id="awards" class="bg-white p-8 shadow-xl rounded-lg hover:shadow-2xl transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Awards and Achievements
+      </h2>
+      <ul class="list-disc pl-6 text-gray-700">
+        <li>Recognized with multiple awards for outstanding contributions to SAP migration projects and excellence in project execution, as acknowledged by peers and leadership</li>
+        <li>Udacity Google Developer Challenge Scholarship (2017).</li>
+        <li>Bronze medal for 3rd rank in IT Department at YCCE, Nagpur (2014).</li>
+        <li>Selected for ACM ICPC Asia Amritapuri Regionals (2013).</li>
+      </ul>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="bg-white p-8 shadow-xl rounded-lg hover:shadow-2xl transition">
+      <h2 class="text-3xl font-semibold mb-6 font-primary text-gray-800 border-b-2 border-gray-300 pb-2">
+        Technical Skills
+      </h2>
+      <div class="flex flex-wrap gap-4">
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Java</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Spring Boot</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Hibernate</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Python</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Django</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Pandas</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">NumPy</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">PyTorch</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">TensorFlow</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Scikit-learn</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">C</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Docker</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Kubernetes</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">HTML</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">CSS</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">JavaScript</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">jQuery</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Node.js</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Express.js</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">React.js</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">AWS (EC2, S3, Lambda)</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Google Cloud Platform (GCP)</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Microsoft Azure</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">SQL</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Git</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Jenkins</span>
+        <span class="bg-gray-200 px-3 py-1 rounded-full text-sm shadow">Shell Scripting</span>
+       
+        
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4">
+      <p class="text-center text-lg font-primary">&copy; 2025 Gaurav Dhongde. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
